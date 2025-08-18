@@ -30,7 +30,7 @@ if (palpiteUsuario === numeroAleatorio) {
   if (palpiteUsuario < numeroAleatorio) {
     baixoOuAlto.textContent = "O último palpite foi muito baixo";
   } else if (palpiteUsuario > numeroAleatorio) {
-    baixouOuAlto.textContent = "O último palpite foi muito alto";
+    baixoOuAlto.textContent = "O último palpite foi muito alto";
   }
 }
 
