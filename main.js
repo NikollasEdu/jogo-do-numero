@@ -23,7 +23,7 @@ if (palpiteUsuario === numeroAleatorio) {
 } else if (contagemPalpites === 10) {
   ultimoResultado.textcontent = "FIM DE JOGO!!";
   baixoOuAlto.textcontent = "";
-  finalizarjogo();
+  finalizarJogo();
 } else {
   ultimoResultado.textContent = "Errado";
   ultimoResultado.style.backgroundColor = "red";
@@ -48,7 +48,6 @@ function finalizarJogo() {
   document.body.appendChild(botaoReiniciar);
   botaoReiniciar.textContent = 'Reiniciar Jogo';
   botaoReiniciar.classList.add('botaoReiniciar');
-  document.body.appendChild(botaoReiniciar);
   botaoReiniciar.addEventListener('click', reiniciarJogo);
 }
 
