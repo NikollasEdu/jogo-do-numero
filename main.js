@@ -21,8 +21,8 @@ if (palpiteUsuario === numeroAleatorio) {
   baixoOuAlto.textContent = "";
   finalizarJogo();
 } else if (contagemPalpites === 10) {
-  ultimoResultado.textcontent = "FIM DE JOGO!!";
-  baixoOuAlto.textcontent = "";
+  ultimoResultado.textContent = "FIM DE JOGO!!";
+  baixoOuAlto.textContent = "";
   finalizarJogo();
 } else {
   ultimoResultado.textContent = "Errado";
@@ -55,7 +55,7 @@ function reiniciarJogo() {
   contagemPalpites = 1;
   const paragrafosReiniciar = document.querySelectorAll('.paragrafosResultado p');
   for (const paragrafoReiniciar of paragrafosReiniciar) {
-    paragrafoReiniciar.textcontent = "";
+    paragrafoReiniciar.textContent = "";
   }
 
   botaoReiniciar.parentNode.removeChild(botaoReiniciar);
