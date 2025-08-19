@@ -76,3 +76,20 @@ h1 {
 .ultimoResultado.correto {
   background-color: #28a745;
 }
+
+.botaoReiniciar {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2e,;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botaoReiniciar:hover {
+  background-color: #0056b3
+}
